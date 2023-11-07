@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Figtree', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-100: #D9DDFF;
+}
+
+body{
+    background-color: var(--primary-100);
+}
+
+#logoaca{
+    position: relative;
+}
+
+#logo {
+    background: url(./img/Logo-horizontal-84px.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+h1 {
+    width: 100%;
+    height: 3.5rem;
+    text-indent: -8000px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 992px) {
+    #logo{
+        left: calc(50% - 100px)
+    }
+}
