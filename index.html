@@ -127,13 +127,13 @@
         <p>Xstudio, fundada en 2023 por Nohelia Forest, una pionera en el mundo de la creación de productos y experiencias digitales. Con una visión original y un enfoque innovador, nuestra misión es ofrecer servicios excepcionales que transformen la forma en que las personas interactúan con el mundo digital. En Xstudio, no solo creamos productos; diseñamos experiencias que cautivan, inspiran y conectan. Estamos comprometidos a mantenernos a la vanguardia de la tecnología y el diseño, trabajando incansablemente para convertir tus ideas en realidades digitales sorprendentes. Únete a nosotros en este emocionante viaje de innovación y descubre un nuevo mundo de posibilidades en el universo digital.</p>
     </section>
 
-    <section>
+    <section id="sec-servicios">
       <p>Lo que hacemos</p>
       <h2>Nuestros Servicios</h2>
       <article class="row">
         <div class="col-sm-6 mb-3 mb-sm-0">
           <div class="card">
-             <img src="..." class="card-img-top" alt="...">
+             <img class="icon-servicios" src="./img/icon-park-solid_data.svg" class="card-img-top" alt="Icono análisis">
             <div class="card-body">
               <h5 class="card-title">Análisis Avanzado</h5>
               <p class="card-text">Hacemos seguimiento análitico para mejorar el alcance de tu negocio</p>
@@ -146,7 +146,7 @@
 
         <div class="col-sm-6 mb-3 mb-sm-0">
           <div class="card">
-             <img src="..." class="card-img-top" alt="...">
+             <img class="icon-servicios" src="./img/fluent_design-ideas-24-filled.svg" class="card-img-top" alt="Icono Diseño">
             <div class="card-body">
               <h5 class="card-title">Branding</h5>
               <p class="card-text">Consolidamos el sistema visual para mejorar el alcance de tu negocio</p>
@@ -159,7 +159,7 @@
 
         <div class="col-sm-6 mb-3 mb-sm-0">
           <div class="card">
-             <img src="..." class="card-img-top" alt="...">
+             <img class="icon-servicios" src="./img/fluent_card-ui-20-filled.svg" class="card-img-top" alt="Icono UX/UI">
             <div class="card-body">
               <h5 class="card-title">UI/UX Design</h5>
               <p class="card-text">Creamos la mejores interfaces intuitivas para mejorar el alcance de tu negocio</p>
@@ -172,7 +172,7 @@
 
         <div class="col-sm-6">
           <div class="card">
-             <img src="..." class="card-img-top" alt="...">
+             <img class="icon-servicios" src="./img/nimbus_marketing.svg" class="card-img-top" alt="Icono Marketing">
             <div class="card-body">
               <h5 class="card-title">Marketing</h5>
               <p class="card-text">Creamos las mejores estrategias para mejorar el alcance de tu negocio</p>
@@ -185,11 +185,53 @@
 
       </article>
     </section>
+
+    <section id="sec-galeria">
+      <figure id="galeria">
+          <a href="img/08_Blog02_W_Asset_v1.png"
+              data-fancybox="galeria"
+              data-scrset="img/08_Blog02_T_Asset_v1.webp 576w, img/08_Blog02_W_Asset_v1.webp 991w">
+              <img src="./img/08_Blog02_M_Asset_v1.webp" alt="Audiciencia escuchando el anuncio de Technology">
+          </a>
+
+          <a href="./img/10_Blog03_W_Asset_v1.webp"
+              data-fancybox="galeria"
+              data-scrset="img/10_Blog03_T_Asset_v1.webp 576w, img/10_Blog03_W_Asset_v1.webp 991w">
+              <img src="./img/10_Blog03_M_Asset_v1.webp" alt="Mundo Tech">
+          </a>
+
+          <a href="./img/12_Element_W_Asset_v1.webp"
+              data-fancybox="galeria"
+              data-scrset="12_Element_T_Asset_v1.webp 576w, 12_Element_W_Asset_v1.webp 991w">
+              <img src="./img/12_Element_M_Asset_v1.webp" alt="Próximo Encuentro">
+          </a>
+
+          <a href="./img/13_Element_W_Asset_v1.webp"
+              data-fancybox="galeria"
+              data-scrset="13_Element_T_Asset_v1.webp 576w, 13_Element_W_Asset_v1.webp 991w">
+              <img src="./img/13_Element_M_Asset_v1.webp" alt="Mundo Tech">
+          </a>
+
+          <a href="./img/06_Blog01_W_Asset_v1.webp"
+              data-fancybox="galeria"
+              data-scrset="06_Blog01_T_Asset_v1.webp 576w, 06_Blog01_W_Asset_v1.webp 991w">
+              <img src="./img/06_Blog01_M_Asset_v1.webp" alt="Próximo Encuentro">
+          </a>
+
+          <a href="./img/14_Element_M_Asset_v1.webp"
+              data-fancybox="galeria"
+              data-scrset="img/14_Element_T_Asset_v1.webp 576w, img/14_Element_W_Asset_v1.webp 991w">
+              <img src="./img/14_Element_M_Asset_v1.webp" alt="Mundo Tech">
+          </a>
+      </figure>
+  </section>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
     <script src="./js/marcaBoton.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
 
     <script>
         const btns = document.querySelectorAll('.nav-item')

@@ -12,6 +12,7 @@
     --white: #fff;
     --tertiary-600: #2a3a00;
     --primary-400: #295BFF;
+    --secondary--100: #FFDBD7;
 }
 
 body{
@@ -77,6 +78,29 @@ figure{
 
 #sec-video strong{
     color: var(--primary-400);
+}
+
+#sec-servicios{
+    padding: 80px 24px;
+    gap: 30px;
+    background: var(--secondary--100);
+}
+
+.card{
+    padding: 30px 26px;
+    gap: 20px;
+}
+
+.icon-servicios{
+    width: 80px;
+    height: 80px;
+}
+
+.secondary-buttom{
+    text-decoration: none;
+    color: var(--primary-400);
+    font-size: 16px;
+    font-weight: 500;
 }
 
 @media screen and (max-width: 992px) {
