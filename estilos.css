@@ -46,7 +46,12 @@ h1 {
     padding: 14px 20px;
     background: none;
     border-radius: 7px;
-    border: 1px solid #171717;
+    border: 1px solid var(--primary-400);
+    color: var(--primary-400);
+}
+
+.primary-buttom:hover {
+    transform: scale(0.98);
 }
 
 /* Carousel section */
@@ -84,6 +89,11 @@ figure{
     background: var(--white);
 }
 
+#sec-video iframe{
+    width: 75vw;
+    height: 45vh;
+}
+
 #sec-video strong{
     color: var(--primary-400);
 }
@@ -91,14 +101,34 @@ figure{
 /* Services section */
 
 #sec-servicios{
-    padding: 80px 24px;
+    padding: 80px 32px;
     gap: 30px;
     background: var(--secondary--100);
+}
+
+#sec-servicios h2{
+    font-size: 0.83313rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    color:#260700;
+}
+
+#sec-servicios h2{
+    color:#260700;
+    font-size: 1.44rem;
+    font-weight: 600;
+    line-height: 1.75rem;
 }
 
 .card{
     padding: 30px 26px;
     gap: 20px;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
 }
 
 .icon-servicios{
@@ -208,7 +238,6 @@ figure{
 .input-wrapper {
     border-radius: 0.375rem;
     border: 1px solid var(--primary-400);
-    background-color: none;
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -254,7 +283,6 @@ figure{
 .form-group textarea{
     border-radius: 0.375rem;
     border: 1px solid var(--primary-400);
-    background-color: none;
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -265,6 +293,136 @@ figure{
 
 #contact .right .form-wrapper button:hover {
     transform: scale(0.98);
+}
+
+/*-FOOTER SECTION-*/
+
+footer {
+    background: #2A3A00;
+    display: flex;
+    padding: 5rem 2rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.125rem;
+}
+
+#footer {
+	color: #C6FF29;
+    width: 75vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#footer h1{
+    height: 18.5rem;
+    margin-bottom: 4rem;
+}
+
+#logo-footer {
+    background-image: url(./img/Logo-vertical-green.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#footer ul{
+    padding-left: 0px;
+}
+
+#footer ul li {
+    list-style: none;
+    padding-bottom: 1rem;
+}
+
+#footer ul li a {
+	display: inline-block;
+	width: 100%;
+    color: #C6FF29;
+}
+
+#footer .redes-sociales ul {
+	display: flex;
+	justify-content: center;
+}
+
+#footer .redes-sociales ul li a {
+    width: calc(75vw / 4);
+    height: calc(75vw/4);
+	text-indent: -30000px;
+    overflow: hidden;
+    padding: 0 1rem;
+}
+
+#facebook{
+    background-image: url(./img/entypo-social_facebook.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+
+#instagram{
+    background-image: url(./img/basil_instagram-solid.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+
+#twitter{
+    background-image: url(./img/skill-icons_twitter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+
+#copyright {
+	padding: 1rem 0;
+	background-color: #2A3A00;
+    color: #C6FF29;
+}
+#copyright p {
+	margin: 1rem;
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) {
+
+    /* Logos-partners */
+
+    .logo-partners{
+        padding: 2.69rem;
+        gap: 2.25rem 1.5rem;
+        
+    }
+
+    /* Sección video */
+
+    #sec-video{
+        padding: 8.75rem 6.5rem;
+        gap: 2rem;
+
+    }
+
+    /* Servicios */
+
+    #sec-servicios{
+        padding: 8.5rem 6.5rem;
+    }
+    
+}
+
+/* Website */
+
+@media screen and (min-width: 992px) {
+
+    /* Logos-partners */
+
+    .logo-partners{
+        padding: 6.25rem;
+        gap: 2rem 4rem;
+        
+    }
+
 }
 
 @media screen and (max-width: 992px) {
