@@ -2,8 +2,6 @@
     padding: 0;
     margin: 0;
     font-family: 'Figtree', sans-serif;
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'Space Grotesk', sans-serif;
     box-sizing: border-box;
 }
 
@@ -26,13 +24,14 @@ body{
 }
 
 #logo {
-    background: url(./img/Logo-horizontal-84px.svg);
+    background: url(../img/logo-horizontal-84px.svg);
     background-repeat: no-repeat;
     background-position: left;
     position: absolute;
     left: 0;
     top: 0;
     z-index: 100;
+    width: 166px;
 }
 
 h1 {
@@ -159,7 +158,7 @@ figure{
     padding: 80px 0px;
     position: relative;
     width: 100%;
-    max-width: 75vw;
+    /* max-width: 75vw; */
     margin: 0 auto 0;
     text-align: center;
 }
@@ -169,7 +168,7 @@ figure{
 }
 
 #sec-galeria figure a img{
-    width: calc(75vw / 2.05);
+    width: calc(90vw / 2.05);
     border-radius: 8px;
     animation: sec-04 2s ease 2s 1 normal backwards;
 }
@@ -319,7 +318,7 @@ footer {
 }
 
 #logo-footer {
-    background-image: url(./img/Logo-vertical-green.svg);
+    background-image: url(../img/logo-vertical-green.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -354,21 +353,21 @@ footer {
 }
 
 #facebook{
-    background-image: url(./img/entypo-social_facebook.svg);
+    background-image: url(../img/entypo-social_facebook.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 60%;
 }
 
 #instagram{
-    background-image: url(./img/basil_instagram-solid.svg);
+    background-image: url(../img/basil_instagram-solid.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 60%;
 }
 
 #twitter{
-    background-image: url(./img/skill-icons_twitter.svg);
+    background-image: url(../img/skill-icons_twitter.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 60%;
@@ -534,6 +533,6 @@ footer {
 
 @media screen and (max-width: 992px) {
     #logo{
-        left: calc(50% - 100px)
+        left: calc(50% - 83px)
     }
 }
