@@ -1,7 +1,7 @@
 <?php
 // mail de destino: cambiarlo por tu mail personal
 
-$enviaPara = 'omar.toyos@davinci.edu.ar'; 
+$enviaPara = 'emily.gaitan@davinci.edu.ar'; 
 
 // subject del mail: el asunto que quiero que muestre
 
